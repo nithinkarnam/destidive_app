@@ -1,0 +1,130 @@
+/*app.css*/
+.container {
+    text-align: center; /* Center align the content within the container */
+  }
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+  }
+  h1{
+    background:linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114), rgb(242, 112, 156)); /* Set your desired background color */
+    color: #ffffff; /* Set your desired text color */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  h1:hover{
+    background:linear-gradient(75deg,cyan,lightgreen, #c6ffdd, #fbd786, #f7797d,lightgoldenrodyellow);
+    color:darkslategrey;
+  }
+  h3 {
+     /* Set your desired background color */
+    color:darkslategray; /* Set your desired text color */
+    padding: 15px; /* Adjust padding as needed */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .select-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+  }
+  
+  select
+  {
+    margin-right:800px
+  }
+  /* Add any additional styles for your button if needed */
+  button {
+    margin-left: 200px; /* Add margin to the left of the button */
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: papayawhip;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(75deg,cyan,lightgreen, #c6ffdd, #fbd786, #f7797d,lightgoldenrodyellow);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    color:lightgoldenrodyellow;
+    margin-bottom: 20px;
+  }
+  
+  .select-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e3dada;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  select:hover {
+    border-color: #999;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color:green;
+    color:lightyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color:lightskyblue;
+  }
+  
+  .service-list-container {
+    flex: 1;
+    background:linear-gradient(75deg,lightgoldenrodyellow,#ffefba, #ffffff);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid darkred;
+    padding: 10px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  tr:hover {
+    background:linear-gradient(to right, #ff512f, #f09819,gold);;
+  }
+  
